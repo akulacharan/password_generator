@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}
+  <title>Result</title>
+{% endblock %}
+
+
+{% block body %}
+<body class="d-flex h-100 text-center text-white bg-dark">
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+  <main role="main" class="inner cover my-5">
+    <p class="lead">Your Password is...</p>
+
+    <h1 class="cover-heading my-5" style="color:#ff4d4d;">{{pass}}</h1>
+    <p class="lead">
+      <a href="/" class="btn btn-lg btn-secondary">Click here to generate new password</a>
+    </p>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+
+  </footer>
+</div>
+{% endblock %}
